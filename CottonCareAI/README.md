@@ -46,7 +46,7 @@ The primary use case for Cotton Care AI is to assist farmers, agronomists, and a
 Here are a few examples of images used for testing the Cotton Care AI application:
 
 ### 1. Diseased Cotton Leaf
-![Diseased Cotton Leaf](static/images/diseased_cotton_leaf.jpg)
+![Diseased Cotton Leaf](https://github.com/alidaud1/Deep-Learning/blob/main/CottonCareAI/asset1.png?raw=true)
 
 ### 2. Fresh Cotton Leaf
-![Fresh Cotton Leaf](static/images/fresh_cotton_leaf.jpg)
+![Fresh Cotton Leaf](https://github.com/alidaud1/Deep-Learning/blob/main/CottonCareAI/asset2.png?raw=true)
