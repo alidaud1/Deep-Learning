@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotton Disease Detection</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Cotton Disease Detection</h1>
+    </div>
+    <div class="container" style="background: darkseagreen;">
+        <div class="column" style="background: darkseagreen;">
+            <form action="/" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept="image/*">
+                <button type="submit">Check</button>
+            </form>
+            <div>
+                <img src="data:image/jpeg;base64,{{ uploaded_image }} " style="width: 350px; height:auto; margin-top: 20px;" alt="Uploaded Image">
+            </div>
+        </div>
+        <div class="column">
+            {% if prediction %}
+            <h2>Result:</h2>
+            <p>The predicted class is: <h2>{{ prediction }}<h2></p>
+            <!-- <img src="data:image/jpeg;base64,{{ uploaded_image }} " style="width: 350px; height: auto;" alt="Uploaded Image"> -->
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
