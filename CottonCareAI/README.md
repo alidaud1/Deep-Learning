@@ -50,3 +50,11 @@ Here are a few examples of images used for testing the Cotton Care AI applicatio
 
 ### 2. Fresh Cotton Leaf
 ![Fresh Cotton Leaf](https://github.com/alidaud1/Deep-Learning/blob/main/CottonCareAI/asset2.png?raw=true)
+
+### 3. Diseased Cotton Plant
+![Diseased Cotton Plant](https://github.com/alidaud1/Deep-Learning/blob/main/CottonCareAI/asset4.png?raw=true)
+
+### 4. Fresh Cotton Plant
+![Fresh Cotton Plant](https://github.com/alidaud1/Deep-Learning/blob/main/CottonCareAI/asset3.png?raw=true)
+
+These images represent different conditions of the cotton plant, which the AI model classifies with high accuracy.
